@@ -111,8 +111,22 @@ footer {
     margin-top: 10rem;
 }
 
+/* if landscape, remove the line breaking in each space of the header, but this gets overruled again in wider @media query */
+@media screen and (orientation: landscape) {
+
+    header h1 {
+        word-spacing: normal;
+        margin-bottom: 0;
+    }
+
+}
+
 /* on wider screens, make the overall font sizes larger, add more space, and split aside into two columns */
 @media screen and (min-width: 768px) {
+
+    header h1 {
+        word-spacing: 100vw; /* force linebreak after each word, overriding landscape */
+    }
     
     main p,
     main li {
