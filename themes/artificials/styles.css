@@ -1,9 +1,3 @@
-/* 
-
-Legendary Disco - the sparklingest theme ever seen 
-
-*/
-
 body {
     padding: 1rem;
     font-family: 'Courier New', Courier, monospace;
@@ -32,15 +26,11 @@ footer {
     grid-area: credits;
 }
 
-h1 {
+h1{
     font-size: 4rem;
     padding-top: 30vh;
 }
 
 header p {
     font-size: 0.8em;
-}
-
-aside li span {
-    font-weight: bold;
 }

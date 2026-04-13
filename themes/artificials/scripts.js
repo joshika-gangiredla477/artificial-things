@@ -23,5 +23,5 @@ export function initializePage() {
     let footer = document.querySelector("footer");
 
     newArticle.append(header, main, footer);
-
+    
 }
