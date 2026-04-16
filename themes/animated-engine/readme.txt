@@ -6,4 +6,4 @@
 
 <p><strong>Description:</strong></p>
 
-<p>This layout has only one modification: padding around the body tag.</p>
+<p>Changed it to Segoe UI font, moved the header/main/footer tags into an article tag and used CSS grid to format into two columns</p>
