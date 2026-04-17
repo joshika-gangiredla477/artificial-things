@@ -13,7 +13,7 @@ Your first statement should be to call confirmTheme() with the name of your them
 export function initializePage() {
 
     // call main function that outputs message to console and update page title
-    confirmTheme("Legendary Disco");
+    confirmTheme("artificials");
 
     let newArticle = document.createElement("article");
     document.body.append(newArticle);
@@ -23,5 +23,5 @@ export function initializePage() {
     let footer = document.querySelector("footer");
 
     newArticle.append(header, main, footer);
-
+    
 }
